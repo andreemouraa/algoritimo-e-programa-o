@@ -1,16 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
-int main () 
-{printf("alo mundo");
-returne 0;}
- 
-Média aritimédica:6,5;7,1;8,6
-Inicio
-Variavel=média=ma
-ma <- (6,5 + 7,1 + 8,6) / 3
-escreva ("6,5 + 7,1 + 8,6",
+1. Construa um programa que mostre seus 
+dados pessoais em tela como: nome, endereço, 
+telefone, e-mail, CPF, RG, e outros...
+R.:
+*/
 
-Saida
-    
+// nossas bibliotecas
+#include <stdio.h> // biblioteca padrão entrada/saída
+#include <stdlib.h> // biblioteca padrão de bibliotecas
+
+// função principal
+int main(void){ // chamada da função main()
+    // função printf() = imprimir dados em tela
+    printf("Nome: Manfred Heil Junior\n");
+    printf("End.: Rua Antonio José Waltrick n.172 - Penha\n");
+    printf("Email: manfred@manfred.com.br\n");
+    printf("Tel.: 47 991715494\n");
+    printf("CPF: 433.654.756-54\n");
+    printf("RG: 23.543.423\n");
+
+    return 0;
     
     
