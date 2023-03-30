@@ -1,0 +1,21 @@
+o que é um algoritimo:Um algoritmo é uma sequência de instruções bem definidas, normalmente usadas para resolver problemas de matemática específicos, executar tarefas, ou para realizar cálculos e equações
+o que é um computador:Um computador é um dispositivo eletrônico que administra informações ou dados
+o que é lógica:
+o que é um código-fonte:instruções que serão interpretadas e compiladas pelo computador em determinada linguagem para que a uma solução funcione de maneira adequada.
+o que é a linguagem de programa 
+Estrutura sequencial
+o que são entradas:O comando de entrada é utilizado para receber dados digitados pelo usuário.
+o que são saídas:O comando de saída é utilizado para mostrar dados na tela, este dados podem ser conteúdos de variáveis e/ou mensagens.
+o que é variavel:elemento que aloca memoria que pode armazenar algum valor vairavel
+o que é tipo primitivo: são os tipos de variáveis que a linguagem de programação oferece.os 4 tipos de estrutura são:inteiro, real, caractere e lógico.
+o que é identificador:é aquilo de da nome as coisas em um programa
+quais são as regras para o nome do identificador:o primeiro caracter deve ser uma letra;os caracteres seguintes podem ser apenas letras,dígitos ou caracteres sublinhado(_);o nome pode conter até 40caracteres
+o que é constante:é um dado que permanece inalterado durante a execução de um programa.
+o que é literal:valores dentro de um código fonte. elas seguem as mesmas regras das variaveis.
+o que é operador:
+operadores matematicos: + - * / ^ %
+operadores lógicos:AND OR NOT XOR
+operadores de atribuição: <- = += -= *= /=
+operadores comparação: == >= <= < > !=
+o que é fluxograma:é caracterizada por um único fluxo de execução (um único caminho orientado) no diagrama. 
+o que é pseudocódigo:conjunto de comandos dispostos ordenadamente.
