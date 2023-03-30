@@ -4,8 +4,11 @@ int main ()
 {printf("alo mundo");
 returne 0;}
  
+Média aritimédica:6,5;7,1;8,6
 Inicio
-e
+Variavel=média=ma
+ma <- (6,5 + 7,1 + 8,6) / 3
+escreva ("6,5 + 7,1 + 8,6",
 
 Saida
     
