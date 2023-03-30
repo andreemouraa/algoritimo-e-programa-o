@@ -19,3 +19,17 @@ operadores de atribuição: <- = += -= *= /=
 operadores comparação: == >= <= < > !=
 o que é fluxograma:é caracterizada por um único fluxo de execução (um único caminho orientado) no diagrama. 
 o que é pseudocódigo:conjunto de comandos dispostos ordenadamente.
+exemplo:
+    Inicio
+    declare ral n1, n2, n3 média
+    escreva: "informe total:"
+    leia nota1
+    escreva "informe nota2:"
+    leia nota2
+    escreva "informe nota3:"
+    leia nota3
+    atribua média <- (n1*2 + n2*3 + n3*5) / 10
+    escreva media
+    Fim
+    
+    
