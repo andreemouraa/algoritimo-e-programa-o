@@ -2,7 +2,7 @@ o que é um algoritimo:Um algoritmo é uma sequência de instruções bem defini
 o que é um computador:Um computador é um dispositivo eletrônico que administra informações ou dados
 o que é lógica:
 o que é um código-fonte:instruções que serão interpretadas e compiladas pelo computador em determinada linguagem para que a uma solução funcione de maneira adequada.
-o que é a linguagem de programa 
+o que é a linguagem de programa: uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas 
 Estrutura sequencial
 o que são entradas:O comando de entrada é utilizado para receber dados digitados pelo usuário.
 o que são saídas:O comando de saída é utilizado para mostrar dados na tela, este dados podem ser conteúdos de variáveis e/ou mensagens.
@@ -28,12 +28,23 @@ exemplo:
     leia nota2
     escreva "informe nota3:"
     leia nota3
-    atribua média <- (n1*2 + n2*3 + n3*5) / 10
+    atribua média <- (n1*2 + n2*3 + n3*5) / 3
     escreva media
     Fim
     
-    Exercicio
-    Inicio 
+    calcular o valor do salario descontando 8% do innss
+    valor final = vf
+    salario = valor1
+    inss = valor2
+    inicio 
+    declare real valor1,valor2,subtração
+    informe valor1
+    leia valor1
+    valor2 <- (valor1 * 8 / 100)
+    leia valor2
+    atribua valor final(vf) <- (valor1 - valor2)
+    escreva valor final 
+    fim 
     
     
     
