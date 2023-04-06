@@ -1,1 +1,7 @@
 inicio 
+declare n1, n2
+escreva "informe n1"
+leia n1
+escreva "informe n2"
+leia n2
+
