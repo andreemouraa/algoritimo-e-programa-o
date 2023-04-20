@@ -1,0 +1,11 @@
+nome = inout ('Qual o seu nome? ' )
+idade = int( input('Qual a sua idade? '))
+salario = float(input(' Qual o seu salario: '))
+
+idadefutura = idade + 30
+IR = salario * 0.3
+
+print(f'Hello {nome}')
+print(f'Você tem {idade} anos')
+print(f'Daqui a 30 aos vc terá {idadefutura} anos')
+print(f'vc deve {IR:2.f} de impostos de renda')
