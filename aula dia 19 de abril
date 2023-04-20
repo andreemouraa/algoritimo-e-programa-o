@@ -9,3 +9,5 @@ print(f'Hello {nome}')
 print(f'Você tem {idade} anos')
 print(f'Daqui a 30 aos vc terá {idadefutura} anos')
 print(f'vc deve {IR:2.f} de impostos de renda')
+
+Faça um programa que peça dois números, base e expoente, calcule e imprima o primeiro número elevado ao segundo número. Utilize a função de potência da linguagem.
