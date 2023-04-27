@@ -13,3 +13,43 @@ else:
     salExtra = (ht - 160) * sh * 1.5
   
 print(f'Salario final: {salNormal} + {salExtra} = {salNormal + salExtra}')
+
+"""
+Uma Companhia de Seguros possui nove categorias de seguro baseadas na idade e ocupação do segurado. Somente pessoas com pelo menos 17 anos e não mais de 70 anos podem adquirir apólices de seguro. Quanto às classes de ocupações, foram definidos três grupos de risco. A tabela abaixo fornece as categorias em função da faixa etária e do grupo de risco. Dados nome, idade e grupo de risco, determinar a categoria do pretendente à aquisição de tal seguro. Imprimir o nome a idade e a categoria do pretendente, e, caso a idade não esteja na faixa necessária, imprimir uma mensagem.
+"""
+nome = input('Nome: ')
+idade = int(input('Idade: '))
+grupo = input('Grupo [B]aixo, [M]édio, [A]lta: ')
+cat = 0
+if idade >= 17 and idade <= 70:
+  if idade <= 20:
+      B = 1
+      M = 2
+      A = 3
+  elif idade <= 24:
+      B = 2
+      M = 3
+      A = 4
+  elif idade <= 34:
+      B = 4
+      M = 5 
+      A = 6
+  elif idade <= 64:
+      B = 4
+      M = 5
+      A = 6
+  else:
+      B = 7
+      M = 8
+      A = 9
+  if grupo == 'B':
+      cat = B
+  elif grupo == 'M':
+      cat = M
+  elif grupo == 'A':
+      cat = A
+
+if cat == 0:
+    print('Informações inválida')
+else:
+  print(f'Sua categoria é {cat}')
