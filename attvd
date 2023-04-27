@@ -1,0 +1,15 @@
+""" Decisão 8
+A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que trabalhar mais de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 50%. Escreva um programa que leia o número de horas trabalhadas em um mês, o salário por hora e imprima o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas (considere que o mês possua 4 semanas exatas).
+"""
+ht = float(input('Horas trabalhadas:160 '))
+sh = float(input('Salario hora: '))
+
+salNormal = 0
+salExtra = 0
+if ht <= 160:
+    salNormal = ht * sh
+else:
+    salNormal = 160 * sh 
+    salExtra = (ht - 160) * sh * 1.5
+  
+print(f'Salario final: {salNormal} + {salExtra} = {salNormal + salExtra}')
